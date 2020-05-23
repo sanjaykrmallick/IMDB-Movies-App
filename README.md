@@ -1,2 +1,2 @@
-# IMDB-and-Speech-Recognition-App
-This is JavaScript and imdb api with window speech recognition app
+# IMDB-Movies-App
+This Project is using imdb api with speech recognition feature
