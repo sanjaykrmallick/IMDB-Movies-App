@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Movies</title>
+    <link rel="shortcut icon" href="./images/nficon2016.ico">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+    <section class="container">
+        <section>
+            <article>
+                <div id="signIn">
+                    <button class="SignIn" onclick="window.location.href='https://accounts.google.com/servicelogin'"><span>Sign In</span></button>
+                </div>
+                <section id="formBlock">
+                    <div id="divBlock">
+                        <h1>Unlimited movies, TV<br> shows and more.</h1>
+                        <p>Watch anywhere. Cancel anytime.</p>
+                    </div>
+                    <article>
+                        <form>
+                            <input type="search" id="search" class="searchBlock" placeholder="Search Movies">
+                            <i class="fas fa-microphone-alt" id="speechIcon"></i>
+                        </form>
+                    </article>
+                </section>
+                <!-- Form Block -->
+                <div id="template"></div>
+            </article>
+        </section>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
+<!-- A promise is an object that may produce a single value some time in the future : either a resolved value, or a reason that it's not resolved (e.g., a network error occurred). A promise may be in one of 3 possible states: fulfilled, rejected, or pending -->
